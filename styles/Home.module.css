@@ -1,0 +1,75 @@
+.home {
+  height: 100dvh;
+  width: 100dvw;
+  font-family: sans-serif;
+}
+
+.home > .main__home {
+  background-image: url("../public/josh-eckstein-nkUioaswtvM-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home > .main__home > .welcome__message__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: white;
+}
+
+.home > .main__home > .welcome__message__wrapper > .main__welcome__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+}
+
+.home > .main__home > .welcome__message__wrapper > .main__welcome__text > h1 {
+  letter-spacing: 0.1rem;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.home
+  > .main__home
+  > .welcome__message__wrapper
+  > .main__welcome__text
+  > .goals__wrapper {
+  display: flex;
+  gap: 1rem;
+  color: gray;
+  letter-spacing: 0.1rem;
+}
+
+.home > .main__home > .welcome__message__wrapper > .dateTime__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.home > .main__home > .welcome__message__wrapper > .dateTime__wrapper > p {
+  letter-spacing: 0.1rem;
+}
+
+.seeMoreDiv {
+  padding: 10px 40px;
+  border: 1px solid white;
+  letter-spacing: 0.2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .home > .main__home > .welcome__message__wrapper > .main__welcome__text > h1 {
+    font-size: larger;
+  }
+}

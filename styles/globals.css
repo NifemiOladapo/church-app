@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+=======
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  padding: 0;
+  scrollbar-color: transparent transparent;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+>>>>>>> e519c86d4f5efc1d5e1fd5afedca459a5011e733
